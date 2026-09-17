@@ -103,16 +103,6 @@ export default function Login() {
           >
             {isResettingPassword ? 'Back to sign in' : 'Forgot password?'}
           </Button>
-          {!isResettingPassword && (
-            <div className="mt-4 rounded-lg border border-border bg-muted/50 p-4">
-              <p className="mb-2 text-sm font-medium text-foreground">Demo Accounts:</p>
-              <div className="space-y-1 text-xs text-muted-foreground">
-                <p><strong>Super Admin:</strong> superadmin@edtech.com / kaaka_vaai_la_vada</p>
-                <p><strong>Course Admin:</strong> courseadmin@edtech.com / aaya_sutta_vada</p>
-                <p><strong>Support:</strong> support@edtech.com / palaya_sooru_meen_kulambu</p>
-              </div>
-            </div>
-          )}
         </CardContent>
       </Card>
     </div>
